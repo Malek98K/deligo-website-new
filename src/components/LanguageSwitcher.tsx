@@ -2,7 +2,7 @@
 
 import { useTranslation, Locale } from "@/i18n";
 import { useState, useRef, useEffect } from "react";
-import { Globe } from "lucide-react";
+
 
 export function LanguageSwitcher() {
   const { locale, setLocale } = useTranslation();

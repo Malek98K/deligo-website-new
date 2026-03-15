@@ -1,7 +1,7 @@
 "use client";
 
-import Link from "next/link";
-import { ShieldCheck, Server, Lock, Database, CheckCircle, FileText } from "lucide-react";
+
+import { ShieldCheck, Server, Lock, CheckCircle, FileText } from "lucide-react";
 import { useTranslation } from "@/i18n";
 
 export default function Security() {

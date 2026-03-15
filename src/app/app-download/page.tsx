@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Apple, Play } from "lucide-react";
+
 import { useTranslation } from "@/i18n";
 import { AppStoreButton } from "@/components/ui/app-store-button";
 import { PlayStoreButton } from "@/components/ui/play-store-button";

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ShieldCheck, Lock, FileText, Code } from "lucide-react";
+import { ShieldCheck, Lock } from "lucide-react";
 import { useTranslation } from "@/i18n";
 
 export function Footer() {

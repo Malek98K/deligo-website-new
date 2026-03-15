@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight, Box, ShieldCheck, MapPin, Truck, CheckCircle2, Star, Lock, FileText } from "lucide-react";
+import { ArrowRight, Box, ShieldCheck, MapPin, Truck, CheckCircle2, Lock, FileText } from "lucide-react";
 import { useTranslation } from "@/i18n";
 import { Testimonials } from "@/components/Testimonials";
 import { PartnersSection } from "@/components/PartnersSection";

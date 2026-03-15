@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+
 import { DollarSign, Clock, ShieldCheck, CheckCircle } from "lucide-react";
 import { useTranslation } from "@/i18n";
 

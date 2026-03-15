@@ -42,13 +42,13 @@ export default function FAQPage() {
     <div className="w-full min-h-screen bg-transparent pt-32 pb-24 px-4 sm:px-6 lg:px-8 flex flex-col items-center">
       <div className="max-w-3xl w-full mx-auto text-center mb-12">
         <span className="inline-block py-1 px-3 rounded-full bg-brand/10 text-brand text-sm font-medium mb-4">
-          <ConditionalWave text={t.faqPage.tag} locale={locale} />
+          <ConditionalWave text={t.faqPage.tag} />
         </span>
         <h1 className="text-4xl md:text-5xl font-bold text-surface-900 mb-6">
-          <ConditionalWave text={t.faqPage.title} locale={locale} />
+          <ConditionalWave text={t.faqPage.title} />
         </h1>
         <p className="text-xl text-surface-600">
-          <ConditionalWave text={t.faqPage.desc} locale={locale} />
+          <ConditionalWave text={t.faqPage.desc} />
         </p>
       </div>
       

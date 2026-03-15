@@ -23,7 +23,7 @@ const TranslationContext = createContext<TranslationContextType | null>(null);
 
 export function TranslationProvider({ children }: { children: React.ReactNode }) {
   const [locale, setLocaleState] = useState<Locale>("en");
-  const [isLoaded, setIsLoaded] = useState(false);
+  
 
   useEffect(() => {
     // Load from cookie on mount
@@ -31,7 +31,7 @@ export function TranslationProvider({ children }: { children: React.ReactNode })
     if (saved && dictionaries[saved]) {
       setLocaleState(saved);
     }
-    setIsLoaded(true);
+    
   }, []);
 
   const setLocale = (loc: Locale) => {
